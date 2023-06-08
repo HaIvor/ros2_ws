@@ -1,0 +1,55 @@
+running egg_info
+creating ../../build/nodecomx/nodecomx.egg-info
+writing ../../build/nodecomx/nodecomx.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodecomx/nodecomx.egg-info/dependency_links.txt
+writing entry points to ../../build/nodecomx/nodecomx.egg-info/entry_points.txt
+writing requirements to ../../build/nodecomx/nodecomx.egg-info/requires.txt
+writing top-level names to ../../build/nodecomx/nodecomx.egg-info/top_level.txt
+writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/halvor/ros2_ws/build/nodecomx/build
+creating /home/halvor/ros2_ws/build/nodecomx/build/lib
+creating /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/modem_info.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/__init__.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/processing_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/receiver_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+copying nodecomx/algo.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+running install
+running install_lib
+creating /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/modem_info.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/__init__.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/processing_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/receiver_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/algo.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/modem_info.py to modem_info.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/FP16_converter.py to FP16_converter.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/gradient_hessian_calculator.py to gradient_hessian_calculator.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/processing_node.py to processing_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/receiver_node.py to receiver_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/transmitter_node.py to transmitter_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/algo.py to algo.cpython-310.pyc
+running install_data
+creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index
+creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index
+creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages
+copying resource/nodecomx -> /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages
+copying package.xml -> /home/halvor/ros2_ws/install/nodecomx/share/nodecomx
+running install_egg_info
+Copying ../../build/nodecomx/nodecomx.egg-info to /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info
+running install_scripts
+Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+writing list of installed files to '/home/halvor/ros2_ws/build/nodecomx/install.log'

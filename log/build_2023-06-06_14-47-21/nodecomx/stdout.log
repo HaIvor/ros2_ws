@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing nodecomx.egg-info/PKG-INFO
+writing dependency_links to nodecomx.egg-info/dependency_links.txt
+writing entry points to nodecomx.egg-info/entry_points.txt
+writing requirements to nodecomx.egg-info/requires.txt
+writing top-level names to nodecomx.egg-info/top_level.txt
+reading manifest file 'nodecomx.egg-info/SOURCES.txt'
+writing manifest file 'nodecomx.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx.egg-link (link to .)
+Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+
+Installed /home/halvor/ros2_ws/build/nodecomx
+running install_data

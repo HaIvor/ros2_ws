@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (nodecomx) JobQueued: {'identifier': 'nodecomx', 'dependencies': OrderedDict()}
+[0.001013] (nodecomx) JobStarted: {'identifier': 'nodecomx'}
+[0.099846] (-) TimerEvent: {}
+[0.200132] (-) TimerEvent: {}
+[0.300384] (-) TimerEvent: {}
+[0.400634] (-) TimerEvent: {}
+[0.470593] (nodecomx) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nodecomx', 'build', '--build-base', '/home/halvor/ros2_ws/build/nodecomx/build', 'install', '--record', '/home/halvor/ros2_ws/build/nodecomx/install.log', '--single-version-externally-managed'], 'cwd': '/home/halvor/ros2_ws/src/nodecomx', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'halvor', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/halvor', 'OLDPWD': '/home/halvor/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1792', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee666c14ac7958f0aa186821647d9238', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'halvor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'halvor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/halvor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Garrosh:@/tmp/.ICE-unix/1792,unix/Garrosh:/tmp/.ICE-unix/1792', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nb_NO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/46c6be04_91b1_4843_b8e5_0f7fee02ccfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S4RP51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1340', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/halvor/ros2_ws/build/nodecomx', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ee666c14ac7958f0aa186821647d9238', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/halvor/ros2_ws/build/nodecomx/prefix_override:/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.500744] (-) TimerEvent: {}
+[0.600941] (-) TimerEvent: {}
+[0.666468] (nodecomx) StdoutLine: {'line': b'running egg_info\n'}
+[0.666842] (nodecomx) StdoutLine: {'line': b'creating ../../build/nodecomx/nodecomx.egg-info\n'}
+[0.666976] (nodecomx) StdoutLine: {'line': b'writing ../../build/nodecomx/nodecomx.egg-info/PKG-INFO\n'}
+[0.667101] (nodecomx) StdoutLine: {'line': b'writing dependency_links to ../../build/nodecomx/nodecomx.egg-info/dependency_links.txt\n'}
+[0.667183] (nodecomx) StdoutLine: {'line': b'writing entry points to ../../build/nodecomx/nodecomx.egg-info/entry_points.txt\n'}
+[0.667275] (nodecomx) StdoutLine: {'line': b'writing requirements to ../../build/nodecomx/nodecomx.egg-info/requires.txt\n'}
+[0.667401] (nodecomx) StdoutLine: {'line': b'writing top-level names to ../../build/nodecomx/nodecomx.egg-info/top_level.txt\n'}
+[0.667479] (nodecomx) StdoutLine: {'line': b"writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'\n"}
+[0.668572] (nodecomx) StdoutLine: {'line': b"reading manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'\n"}
+[0.669076] (nodecomx) StdoutLine: {'line': b"writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'\n"}
+[0.669154] (nodecomx) StdoutLine: {'line': b'running build\n'}
+[0.669205] (nodecomx) StdoutLine: {'line': b'running build_py\n'}
+[0.669278] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/build/nodecomx/build\n'}
+[0.669363] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/build/nodecomx/build/lib\n'}
+[0.669413] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669499] (nodecomx) StdoutLine: {'line': b'copying nodecomx/modem_info.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669564] (nodecomx) StdoutLine: {'line': b'copying nodecomx/__init__.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669628] (nodecomx) StdoutLine: {'line': b'copying nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669689] (nodecomx) StdoutLine: {'line': b'copying nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669739] (nodecomx) StdoutLine: {'line': b'copying nodecomx/processing_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669803] (nodecomx) StdoutLine: {'line': b'copying nodecomx/receiver_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669871] (nodecomx) StdoutLine: {'line': b'copying nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.669950] (nodecomx) StdoutLine: {'line': b'copying nodecomx/algo.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx\n'}
+[0.670131] (nodecomx) StdoutLine: {'line': b'running install\n'}
+[0.670223] (nodecomx) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.670286] (nodecomx) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.670389] (nodecomx) StdoutLine: {'line': b'running install_lib\n'}
+[0.671024] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671165] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/modem_info.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671335] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/__init__.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671499] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671577] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671630] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/processing_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671679] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/receiver_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671727] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671775] (nodecomx) StdoutLine: {'line': b'copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/algo.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx\n'}
+[0.671859] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/modem_info.py to modem_info.cpython-310.pyc\n'}
+[0.672035] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/__init__.py to __init__.cpython-310.pyc\n'}
+[0.672187] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/FP16_converter.py to FP16_converter.cpython-310.pyc\n'}
+[0.673052] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/gradient_hessian_calculator.py to gradient_hessian_calculator.cpython-310.pyc\n'}
+[0.673594] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/processing_node.py to processing_node.cpython-310.pyc\n'}
+[0.673972] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/receiver_node.py to receiver_node.cpython-310.pyc\n'}
+[0.674433] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/transmitter_node.py to transmitter_node.cpython-310.pyc\n'}
+[0.674747] (nodecomx) StdoutLine: {'line': b'byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/algo.py to algo.cpython-310.pyc\n'}
+[0.675233] (nodecomx) StdoutLine: {'line': b'running install_data\n'}
+[0.675580] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index\n'}
+[0.675659] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index\n'}
+[0.675821] (nodecomx) StdoutLine: {'line': b'creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages\n'}
+[0.675898] (nodecomx) StdoutLine: {'line': b'copying resource/nodecomx -> /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages\n'}
+[0.675953] (nodecomx) StdoutLine: {'line': b'copying package.xml -> /home/halvor/ros2_ws/install/nodecomx/share/nodecomx\n'}
+[0.676004] (nodecomx) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.676869] (nodecomx) StdoutLine: {'line': b'Copying ../../build/nodecomx/nodecomx.egg-info to /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info\n'}
+[0.677478] (nodecomx) StdoutLine: {'line': b'running install_scripts\n'}
+[0.692818] (nodecomx) StdoutLine: {'line': b'Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx\n'}
+[0.693009] (nodecomx) StdoutLine: {'line': b'Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx\n'}
+[0.693088] (nodecomx) StdoutLine: {'line': b'Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx\n'}
+[0.693240] (nodecomx) StdoutLine: {'line': b"writing list of installed files to '/home/halvor/ros2_ws/build/nodecomx/install.log'\n"}
+[0.701054] (-) TimerEvent: {}
+[0.708511] (nodecomx) CommandEnded: {'returncode': 0}
+[0.719472] (nodecomx) JobEnded: {'identifier': 'nodecomx', 'rc': 0}
+[0.720014] (-) EventReactorShutdown: {}

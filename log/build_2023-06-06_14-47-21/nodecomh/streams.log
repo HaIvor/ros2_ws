@@ -1,0 +1,27 @@
+[0.680s] Invoking command in '/home/halvor/ros2_ws/build/nodecomh': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomh/prefix_override:/home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/halvor/ros2_ws/build/nodecomh/build --no-deps install_data
+[0.887s] running develop
+[0.887s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.887s]   warnings.warn(
+[0.888s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.888s]   warnings.warn(
+[0.938s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.938s]   warnings.warn(
+[0.938s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.938s]   warnings.warn(
+[1.030s] running egg_info
+[1.030s] writing nodecomh.egg-info/PKG-INFO
+[1.030s] writing dependency_links to nodecomh.egg-info/dependency_links.txt
+[1.030s] writing entry points to nodecomh.egg-info/entry_points.txt
+[1.031s] writing requirements to nodecomh.egg-info/requires.txt
+[1.031s] writing top-level names to nodecomh.egg-info/top_level.txt
+[1.032s] reading manifest file 'nodecomh.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'nodecomh.egg-info/SOURCES.txt'
+[1.033s] running build_ext
+[1.034s] Creating /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh.egg-link (link to .)
+[1.034s] Installing processing script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+[1.034s] Installing receiver script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+[1.034s] Installing transmitter script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+[1.035s] 
+[1.035s] Installed /home/halvor/ros2_ws/build/nodecomh
+[1.035s] running install_data
+[1.071s] Invoked command in '/home/halvor/ros2_ws/build/nodecomh' returned '0': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomh/prefix_override:/home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/halvor/ros2_ws/build/nodecomh/build --no-deps install_data

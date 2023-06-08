@@ -1,0 +1,59 @@
+[0.471s] Invoking command in '/home/halvor/ros2_ws/src/nodecomx': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomx/prefix_override:/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodecomx build --build-base /home/halvor/ros2_ws/build/nodecomx/build install --record /home/halvor/ros2_ws/build/nodecomx/install.log --single-version-externally-managed
+[0.665s] running egg_info
+[0.666s] creating ../../build/nodecomx/nodecomx.egg-info
+[0.666s] writing ../../build/nodecomx/nodecomx.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../build/nodecomx/nodecomx.egg-info/dependency_links.txt
+[0.666s] writing entry points to ../../build/nodecomx/nodecomx.egg-info/entry_points.txt
+[0.666s] writing requirements to ../../build/nodecomx/nodecomx.egg-info/requires.txt
+[0.666s] writing top-level names to ../../build/nodecomx/nodecomx.egg-info/top_level.txt
+[0.666s] writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+[0.668s] reading manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+[0.668s] writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+[0.668s] running build
+[0.668s] running build_py
+[0.668s] creating /home/halvor/ros2_ws/build/nodecomx/build
+[0.668s] creating /home/halvor/ros2_ws/build/nodecomx/build/lib
+[0.668s] creating /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.668s] copying nodecomx/modem_info.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/__init__.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/processing_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/receiver_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] copying nodecomx/algo.py -> /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx
+[0.669s] running install
+[0.669s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.669s]   warnings.warn(
+[0.669s] running install_lib
+[0.670s] creating /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.670s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/modem_info.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.670s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/__init__.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.670s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/FP16_converter.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/processing_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/receiver_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/transmitter_node.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] copying /home/halvor/ros2_ws/build/nodecomx/build/lib/nodecomx/algo.py -> /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx
+[0.671s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/modem_info.py to modem_info.cpython-310.pyc
+[0.671s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/__init__.py to __init__.cpython-310.pyc
+[0.671s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/FP16_converter.py to FP16_converter.cpython-310.pyc
+[0.672s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/gradient_hessian_calculator.py to gradient_hessian_calculator.cpython-310.pyc
+[0.673s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/processing_node.py to processing_node.cpython-310.pyc
+[0.673s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/receiver_node.py to receiver_node.cpython-310.pyc
+[0.673s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/transmitter_node.py to transmitter_node.cpython-310.pyc
+[0.674s] byte-compiling /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx/algo.py to algo.cpython-310.pyc
+[0.674s] running install_data
+[0.675s] creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index
+[0.675s] creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index
+[0.675s] creating /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages
+[0.675s] copying resource/nodecomx -> /home/halvor/ros2_ws/install/nodecomx/share/ament_index/resource_index/packages
+[0.675s] copying package.xml -> /home/halvor/ros2_ws/install/nodecomx/share/nodecomx
+[0.675s] running install_egg_info
+[0.676s] Copying ../../build/nodecomx/nodecomx.egg-info to /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info
+[0.676s] running install_scripts
+[0.692s] Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.692s] Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.692s] Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.692s] writing list of installed files to '/home/halvor/ros2_ws/build/nodecomx/install.log'
+[0.708s] Invoked command in '/home/halvor/ros2_ws/src/nodecomx' returned '0': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomx/prefix_override:/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodecomx build --build-base /home/halvor/ros2_ws/build/nodecomx/build install --record /home/halvor/ros2_ws/build/nodecomx/install.log --single-version-externally-managed

@@ -1,0 +1,9 @@
+source;share/nodecomx/hook/pythonpath.ps1
+source;share/nodecomx/hook/pythonpath.dsv
+source;share/nodecomx/hook/pythonpath.sh
+source;share/nodecomx/hook/ament_prefix_path.ps1
+source;share/nodecomx/hook/ament_prefix_path.dsv
+source;share/nodecomx/hook/ament_prefix_path.sh
+source;../../build/nodecomx/share/nodecomx/hook/pythonpath_develop.ps1
+source;../../build/nodecomx/share/nodecomx/hook/pythonpath_develop.dsv
+source;../../build/nodecomx/share/nodecomx/hook/pythonpath_develop.sh

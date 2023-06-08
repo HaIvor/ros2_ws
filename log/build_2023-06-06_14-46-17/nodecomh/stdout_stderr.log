@@ -1,0 +1,57 @@
+running egg_info
+creating ../../build/nodecomh/nodecomh.egg-info
+writing ../../build/nodecomh/nodecomh.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodecomh/nodecomh.egg-info/dependency_links.txt
+writing entry points to ../../build/nodecomh/nodecomh.egg-info/entry_points.txt
+writing requirements to ../../build/nodecomh/nodecomh.egg-info/requires.txt
+writing top-level names to ../../build/nodecomh/nodecomh.egg-info/top_level.txt
+writing manifest file '../../build/nodecomh/nodecomh.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodecomh/nodecomh.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodecomh/nodecomh.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/halvor/ros2_ws/build/nodecomh/build
+creating /home/halvor/ros2_ws/build/nodecomh/build/lib
+creating /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/modem_info.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/__init__.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/FP16_converter.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/processing_node.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/receiver_node.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/transmitter_node.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+copying nodecomh/algo.py -> /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/modem_info.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/__init__.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/FP16_converter.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/gradient_hessian_calculator.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/processing_node.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/receiver_node.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/transmitter_node.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+copying /home/halvor/ros2_ws/build/nodecomh/build/lib/nodecomh/algo.py -> /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/modem_info.py to modem_info.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/FP16_converter.py to FP16_converter.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/gradient_hessian_calculator.py to gradient_hessian_calculator.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/processing_node.py to processing_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/receiver_node.py to receiver_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/transmitter_node.py to transmitter_node.cpython-310.pyc
+byte-compiling /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh/algo.py to algo.cpython-310.pyc
+running install_data
+creating /home/halvor/ros2_ws/install/nodecomh/share/ament_index
+creating /home/halvor/ros2_ws/install/nodecomh/share/ament_index/resource_index
+creating /home/halvor/ros2_ws/install/nodecomh/share/ament_index/resource_index/packages
+copying resource/nodecomh -> /home/halvor/ros2_ws/install/nodecomh/share/ament_index/resource_index/packages
+copying package.xml -> /home/halvor/ros2_ws/install/nodecomh/share/nodecomh
+running install_egg_info
+Copying ../../build/nodecomh/nodecomh.egg-info to /home/halvor/ros2_ws/install/nodecomh/lib/python3.10/site-packages/nodecomh-0.0.0-py3.10.egg-info
+running install_scripts
+Installing processing script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+Installing receiver script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+Installing transmitter script to /home/halvor/ros2_ws/install/nodecomh/lib/nodecomh
+writing list of installed files to '/home/halvor/ros2_ws/build/nodecomh/install.log'

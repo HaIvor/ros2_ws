@@ -1,0 +1,5 @@
+[console_scripts]
+processing = nodecomh.processing_node:main
+receiver = nodecomh.receiver_node:main
+transmitter = nodecomh.transmitter_node:main
+

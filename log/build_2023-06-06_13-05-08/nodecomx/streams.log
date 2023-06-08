@@ -1,0 +1,25 @@
+[0.519s] Invoking command in '/home/halvor/ros2_ws/src/nodecomx': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomx/prefix_override:/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodecomx build --build-base /home/halvor/ros2_ws/build/nodecomx/build install --record /home/halvor/ros2_ws/build/nodecomx/install.log --single-version-externally-managed
+[0.735s] running egg_info
+[0.736s] writing ../../build/nodecomx/nodecomx.egg-info/PKG-INFO
+[0.736s] writing dependency_links to ../../build/nodecomx/nodecomx.egg-info/dependency_links.txt
+[0.736s] writing entry points to ../../build/nodecomx/nodecomx.egg-info/entry_points.txt
+[0.736s] writing requirements to ../../build/nodecomx/nodecomx.egg-info/requires.txt
+[0.736s] writing top-level names to ../../build/nodecomx/nodecomx.egg-info/top_level.txt
+[0.738s] reading manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+[0.738s] writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+[0.739s] running build
+[0.739s] running build_py
+[0.739s] running install
+[0.739s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.739s]   warnings.warn(
+[0.739s] running install_lib
+[0.741s] running install_data
+[0.741s] running install_egg_info
+[0.742s] removing '/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info' (and everything under it)
+[0.742s] Copying ../../build/nodecomx/nodecomx.egg-info to /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.760s] Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.760s] Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.760s] Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+[0.760s] writing list of installed files to '/home/halvor/ros2_ws/build/nodecomx/install.log'
+[0.778s] Invoked command in '/home/halvor/ros2_ws/src/nodecomx' returned '0': PYTHONPATH=/home/halvor/ros2_ws/build/nodecomx/prefix_override:/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodecomx build --build-base /home/halvor/ros2_ws/build/nodecomx/build install --record /home/halvor/ros2_ws/build/nodecomx/install.log --single-version-externally-managed

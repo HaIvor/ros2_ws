@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/nodecomx/nodecomx.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodecomx/nodecomx.egg-info/dependency_links.txt
+writing entry points to ../../build/nodecomx/nodecomx.egg-info/entry_points.txt
+writing requirements to ../../build/nodecomx/nodecomx.egg-info/requires.txt
+writing top-level names to ../../build/nodecomx/nodecomx.egg-info/top_level.txt
+reading manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodecomx/nodecomx.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nodecomx/nodecomx.egg-info to /home/halvor/ros2_ws/install/nodecomx/lib/python3.10/site-packages/nodecomx-0.0.0-py3.10.egg-info
+running install_scripts
+Installing processing script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing receiver script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+Installing transmitter script to /home/halvor/ros2_ws/install/nodecomx/lib/nodecomx
+writing list of installed files to '/home/halvor/ros2_ws/build/nodecomx/install.log'
