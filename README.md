@@ -17,6 +17,8 @@ Also, since this is a simulation, if you run both the nodes at once, they will s
 
 in modem_info is where you add the modem_ip, portnumber and modem_name. The portnumber is 1101 and 1102 on the two nodes and the IP is local. When doing the test with physical modems, the IPs needs to be changed. 
 
+This code was deloped and ran on Ubuntu 22.04.2 LTS. 
+
 ## Running the code
 
 Before setting the ROS stuff up, the unet stack simulation has to be setup. A tutorial here: https://unetstack.net/handbook/unet-handbook_getting_started.htmlhttps://unetstack.net/handbook/unet-handbook_getting_started.html, in 2.1 Setting up a simple simulated network. What you do is to download the folder and run this folder in the terminal and write:
