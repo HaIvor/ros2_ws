@@ -1,6 +1,6 @@
 ## Summary
 
-This is a ROS 2 structure with a push-sum consensus between two nodes, impleme nted with a unet simulation. 
+This is a ROS 2 structure with a push-sum consensus between two nodes, implemented with a unet simulation. 
 
 
 ## About 
@@ -14,6 +14,8 @@ Since this includes float16 transmissions, some problems could occur due to the 
 The folder setup is like this to illustrate how the plotting was setup, but the important part to take from this for further development is the package nodecomx in src which can be be added to the ROS project. Nodecomx and nodecomh runs the same stuff, just different starting values on the $y_i$ which is the value we want to come to a consensus. In reality only one nodecom is needed, but this is done to plot the results. 
 
 Also, since this is a simulation, if you run both the nodes at once, they will send and receive at the same time and some weird stuff will happen. This is why only one nodecom is ran first, then after waiting some seconds, the second one is initialized. Now results will be more realistic. 
+
+in modem_info is where you add the modem_ip, portnumber and modem_name. The portnumber is 1101 and 1102 on the two nodes and the IP is local. When doing the test with physical modems, the IPs needs to be changed. 
 
 ## Running the code
 
